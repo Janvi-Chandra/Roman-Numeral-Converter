@@ -244,3 +244,44 @@ input[type="number"]:hover {
     }
 }
 
+.footer {
+    width: 100%;
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    padding: 1rem 2rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-content {
+    display: flex;
+    width:95%;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.footer-left,
+.footer-right {
+    font-size: 1rem;
+}
+
+@media (max-width: 480px) {
+    .container
+    {
+        margin-bottom: 2rem;
+    }
+    .footer
+    {
+        margin-top: 2rem;
+    }
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-left,
+    .footer-right {
+        margin: 0.5rem 0;
+    }
+}
