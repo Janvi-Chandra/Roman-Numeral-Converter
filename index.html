@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="./styles.css" rel="stylesheet">
+    <title>Roman Numeral Converter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <h1>Welcome to Roman-Translator!</h1>
+            <h3>World's Number-to-Roman Converter</h3>
+            <p>Welcome to our Integer to Roman Numeral Converter! This tool helps you convert any integer between 1 and 3999 to its corresponding Roman numeral. Roman numerals are a numeral system that originated in ancient Rome and remained the standard way of writing numbers throughout Europe well into the Late Middle Ages.</p>
+             <div class="convert-box">
+                <input type="number" class="text-box" placeholder="Enter the required number" id="text-input" required>
+                <input type="button" value="Convert" id="convert-btn">
+            </div>
+            <div id="result-box">
+                <p id="result"></p>
+            </div>
+            <div class="info-box">
+                <span><i class='bx bx-bulb'></i></span>
+                <p class="info">Fun fact: Roman numerals lacked a symbol for zero, making math trickier until Arabic numerals, with zero, were adopted.</p>
+            </div>
+        </div>
+
+        <div class="right-side">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/bd9445f8-37a2-4f6c-9e3c-0c6a9145a7be/4cMNfI85LV.json" background="##FFFFFF" speed="1" style="width: 400px; height: 400px" loop autoplay></lottie-player>        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
